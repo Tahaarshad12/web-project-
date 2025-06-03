@@ -1,0 +1,151 @@
+/* App.css */
+.App {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 30px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #ffffff;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background: #ffffff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+body.dark {
+  background-color: #1e1e1e;
+  color: #fff;
+}
+
+body.light {
+  background-color: #f4f4f4;
+  color: #222;
+}
+
+.app-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #aaa;
+  background-color: inherit;
+}
+
+input {
+  padding: 10px;
+  width: 60%;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #2ecc71;
+  color: white;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.task-item {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.app-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task-buttons button {
+  margin-left: 5px;
+}
+
+.dark {
+  background-color: #222;
+  color: white;
+}
+
+.light {
+  background-color: #f5f5f5;
+  color: black;
+}
